@@ -10,7 +10,7 @@ const stationSchema = new mongoose.Schema({
         latitude :Number,
         longitude :Number
     },
-    status : { type:String , enum: ['Active', 'inactive'] , default: 'Active' },
+    status : { type:String , enum: ['Active', 'InActive'] , default: 'Active' },
     powerOuput : Number,
     connectorType: String,
 });
